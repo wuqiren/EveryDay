@@ -22,6 +22,27 @@ var rotate1 = function(nums, k) {
     console.log( newArr.concat(nums),' newArr.concat(nums) newArr.concat(nums)')
     return newArr.concat(nums);
 };
+
+const gcd = (x, y) => y ? gcd(y, x % y) : x;
+
+var rotate = function(nums, k) {
+    const n = nums.length;
+    k = k % n;
+    let count = gcd(k, n);
+    for (let start = 0; start < count; ++start) {
+        let current = start;
+        let prev = nums[start];
+        do {
+            const next = (current + k) % n;
+            const temp = nums[next];
+            nums[next] = prev;
+            prev = temp;
+            current = next;
+        } while (start !== current);
+    }
+};
+
+
 let nums = [1,2,3,4,5,6,7], k = 3
 
 console.log(rotate1(nums,k))

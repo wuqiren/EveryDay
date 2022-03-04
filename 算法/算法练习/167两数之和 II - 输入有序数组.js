@@ -31,4 +31,5 @@ var twoSum2 = function(numbers, target) {
 };
 const numbers = [2,7,11,15]
 
+
 console.log(twoSum2(numbers,9))

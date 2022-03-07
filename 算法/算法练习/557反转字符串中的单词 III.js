@@ -4,7 +4,7 @@
  */
 var reverseWords = function(s) {
     let arr = s.split(" ")
-    console.log(arr)
+  
     let newArr = []
     for(let i = 0; i < arr.length; i++) {
         let next = arr[i].split("")

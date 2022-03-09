@@ -1,22 +1,18 @@
 var lengthOfLongestSubstring = function(s) {
-    const newArr = s.split('')
-    let map = {}
-    let max =0;
-    let now = 0;
-    for (let i = 0; i < newArr.length;i++){
-        let item = newArr[i];
-        console.log(item,'item')
-        console.log(map,'mapmap')
-        if(!map[item]){
-            now++;
-            map[item] =1;
-            max = now
-        }else{
-            max = now>max?now:max; 
-            now=1
-        }
+   let n = s.length;
+   let ans = 0;
+   let map = {};
+   let start= 0;
+   let end;
+   for (end = 0; end < n; end++) {
+    let item = s.charAt(end);
+    if(map[item]){
+        start=map[item]>start?map[item]:start
     }
-    return max
+    ans=ans>(end-start+1)?ans:(end-start+1);
+    map[item] = end+1
+   }
+   return ans
 };
 let s = "abcabcbb"
 

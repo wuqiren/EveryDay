@@ -1,0 +1,477 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20220314.231252.3692.0.001.json",
+    "dumpEventTime": "2022-03-14T23:12:52Z",
+    "dumpEventTimeStamp": "1647270772332",
+    "processId": 3692,
+    "cwd": "c:\\Users\\fishfan\\Desktop\\LeetCode",
+    "commandLine": [
+      "node",
+      "c:\\Users\\fishfan\\Desktop\\LeetCode\\problems\\2两数相加.js"
+    ],
+    "nodejsVersion": "v12.14.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.14.0",
+      "v8": "7.7.299.13-node.16",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.14.0/node-v12.14.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.14.0/node-v12.14.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.14.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.19043",
+    "osVersion": "Windows 10 Home",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD Ryzen 5 3600X 6-Core Processor             ",
+        "speed": 3800,
+        "user": 12919218,
+        "nice": 0,
+        "sys": 9030500,
+        "idle": 117705406,
+        "irq": 2885281
+      },
+      {
+        "model": "AMD Ryzen 5 3600X 6-Core Processor             ",
+        "speed": 3800,
+        "user": 4694562,
+        "nice": 0,
+        "sys": 4266250,
+        "idle": 130694312,
+        "irq": 142078
+      },
+      {
+        "model": "AMD Ryzen 5 3600X 6-Core Processor             ",
+        "speed": 3800,
+        "user": 21433687,
+        "nice": 0,
+        "sys": 6971359,
+        "idle": 111250078,
+        "irq": 75984
+      },
+      {
+        "model": "AMD Ryzen 5 3600X 6-Core Processor             ",
+        "speed": 3800,
+        "user": 7514484,
+        "nice": 0,
+        "sys": 2907031,
+        "idle": 129233609,
+        "irq": 47687
+      },
+      {
+        "model": "AMD Ryzen 5 3600X 6-Core Processor             ",
+        "speed": 3800,
+        "user": 13585015,
+        "nice": 0,
+        "sys": 5176578,
+        "idle": 120893312,
+        "irq": 73359
+      },
+      {
+        "model": "AMD Ryzen 5 3600X 6-Core Processor             ",
+        "speed": 3800,
+        "user": 6033109,
+        "nice": 0,
+        "sys": 2720546,
+        "idle": 130901250,
+        "irq": 46609
+      },
+      {
+        "model": "AMD Ryzen 5 3600X 6-Core Processor             ",
+        "speed": 3800,
+        "user": 14074093,
+        "nice": 0,
+        "sys": 5428031,
+        "idle": 120152781,
+        "irq": 129171
+      },
+      {
+        "model": "AMD Ryzen 5 3600X 6-Core Processor             ",
+        "speed": 3800,
+        "user": 7038859,
+        "nice": 0,
+        "sys": 3516703,
+        "idle": 129099343,
+        "irq": 58296
+      },
+      {
+        "model": "AMD Ryzen 5 3600X 6-Core Processor             ",
+        "speed": 3800,
+        "user": 26517000,
+        "nice": 0,
+        "sys": 6035046,
+        "idle": 107102859,
+        "irq": 110390
+      },
+      {
+        "model": "AMD Ryzen 5 3600X 6-Core Processor             ",
+        "speed": 3800,
+        "user": 6118484,
+        "nice": 0,
+        "sys": 2793218,
+        "idle": 130743203,
+        "irq": 61125
+      },
+      {
+        "model": "AMD Ryzen 5 3600X 6-Core Processor             ",
+        "speed": 3800,
+        "user": 13803031,
+        "nice": 0,
+        "sys": 4105937,
+        "idle": 121745937,
+        "irq": 88562
+      },
+      {
+        "model": "AMD Ryzen 5 3600X 6-Core Processor             ",
+        "speed": 3800,
+        "user": 6039609,
+        "nice": 0,
+        "sys": 2672625,
+        "idle": 130942671,
+        "irq": 59031
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "以太网 5",
+        "internal": false,
+        "mac": "00:ff:8b:89:b4:34",
+        "address": "fe80::d408:3709:8a39:40c9",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 12
+      },
+      {
+        "name": "以太网 5",
+        "internal": false,
+        "mac": "00:ff:8b:89:b4:34",
+        "address": "192.168.255.10",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "以太网",
+        "internal": false,
+        "mac": "00:d8:61:c9:0f:f9",
+        "address": "fe80::4d22:2c71:416b:c143",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 4
+      },
+      {
+        "name": "以太网",
+        "internal": false,
+        "mac": "00:d8:61:c9:0f:f9",
+        "address": "192.168.0.106",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "DESKTOP-ODPNQRA"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff700c01729",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10873"
+    },
+    {
+      "pc": "0x00007ff700c05b4c",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+28316"
+    },
+    {
+      "pc": "0x00007ff700c04b08",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24152"
+    },
+    {
+      "pc": "0x00007ff700cf369b",
+      "symbol": "v8::base::CPU::has_sse+37723"
+    },
+    {
+      "pc": "0x00007ff7014f82de",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff7014e0321",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff7013adbec",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff7013c3c0d",
+      "symbol": "v8::internal::Factory::AllocateRawFixedArray+61"
+    },
+    {
+      "pc": "0x00007ff7013cafc4",
+      "symbol": "v8::internal::Factory::NewFixedArrayWithFiller+52"
+    },
+    {
+      "pc": "0x00007ff7013caf81",
+      "symbol": "v8::internal::Factory::NewUninitializedFixedArray+65"
+    },
+    {
+      "pc": "0x00007ff7012ac12f",
+      "symbol": "v8::Object::GetIsolate+7663"
+    },
+    {
+      "pc": "0x00007ff70115f13a",
+      "symbol": "v8::internal::OrderedHashMap::ValueAt+61274"
+    },
+    {
+      "pc": "0x00007ff70192404d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+567949"
+    },
+    {
+      "pc": "0x00000047d64c457a",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2712489984,
+    "totalCommittedMemory": 2712489984,
+    "usedMemory": 2677829608,
+    "availableMemory": 17135856,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 33554432,
+        "capacity": 16759808,
+        "used": 0,
+        "available": 16759808
+      },
+      "old_space": {
+        "memorySize": 1683456,
+        "committedMemory": 1683456,
+        "capacity": 1376640,
+        "used": 1230168,
+        "available": 146472
+      },
+      "code_space": {
+        "memorySize": 425984,
+        "committedMemory": 425984,
+        "capacity": 156960,
+        "used": 156960,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 266240,
+        "committedMemory": 266240,
+        "capacity": 177920,
+        "used": 177920,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 1773735936,
+        "committedMemory": 1773735936,
+        "capacity": 1773717832,
+        "used": 1773717832,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 3552,
+        "used": 3552,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 902512640,
+        "committedMemory": 902512640,
+        "capacity": 902510880,
+        "used": 902510880,
+        "available": 0
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 1.406,
+    "kernelCpuSeconds": 1.015,
+    "cpuConsumptionPercent": 121.05,
+    "maxRss": 2726412288,
+    "pageFaults": {
+      "IORequired": 675476,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 2,
+      "writes": 89
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=C:": "c:\\Users\\fishfan\\Desktop\\LeetCode",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "ANSYS192_DIR": "D:\\ANSYS\\ANSYS Inc\\v192\\ANSYS",
+    "ANSYS_SYSDIR": "winx64",
+    "ANSYS_SYSDIR32": "win32",
+    "ANS_OLD_ATTACH": "1",
+    "APPDATA": "C:\\Users\\fishfan\\AppData\\Roaming",
+    "APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL": "1",
+    "asl.log": "Destination=file",
+    "AWP_ROOT192": "D:\\ANSYS\\ANSYS Inc\\v192",
+    "CADOE_LIBDIR192": "D:\\ANSYS\\ANSYS Inc\\v192\\CommonFiles\\Language\\en-us",
+    "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_8356_TFWKRIWRXELYQXOA",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DESKTOP-ODPNQRA",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "ELECTRON_RUN_AS_NODE": "1",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "HDRLS_HOME_V5": "C:\\Program Files\\Lightmap\\HDR Light Studio",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\fishfan",
+    "ICEMCFD_ROOT192": "D:\\ANSYS\\ANSYS Inc\\v192\\icemcfd",
+    "ICEMCFD_SYSDIR": "win64_amd",
+    "INTEL_DEV_REDIST": "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\",
+    "LOCALAPPDATA": "C:\\Users\\fishfan\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-ODPNQRA",
+    "LSTC_LICENSE": "ANSYS",
+    "NUMBER_OF_PROCESSORS": "12",
+    "OneDrive": "C:\\Users\\fishfan\\OneDrive",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
+    "OS": "Windows_NT",
+    "Path": "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64_win\\compiler;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\fishfan\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fishfan\\AppData\\Roaming\\npm;D:\\Microsoft VS Code\\bin;",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD",
+    "PROCESSOR_LEVEL": "23",
+    "PROCESSOR_REVISION": "7100",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "P_SCHEMA": "D:\\ANSYS\\ANSYS Inc\\v192\\AISOL\\CADIntegration\\Parasolid\\PSchema",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\fishfan\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\fishfan\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DESKTOP-ODPNQRA",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-ODPNQRA",
+    "USERNAME": "fishfan",
+    "USERPROFILE": "C:\\Users\\fishfan",
+    "VSCODE_AMD_ENTRYPOINT": "vs/workbench/api/node/extensionHostProcess",
+    "VSCODE_CODE_CACHE_PATH": "C:\\Users\\fishfan\\AppData\\Roaming\\Code\\CachedData\\c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1",
+    "VSCODE_CWD": "D:\\Microsoft VS Code",
+    "VSCODE_HANDLES_UNCAUGHT_ERRORS": "true",
+    "VSCODE_IPC_HOOK": "\\\\.\\pipe\\c1cf71a1aeacb48b935636b64bae4d0b-1.65.2-main-sock",
+    "VSCODE_IPC_HOOK_EXTHOST": "\\\\.\\pipe\\vscode-ipc-a1a1c6d9-b371-4c4d-96b6-56334897732e-sock",
+    "VSCODE_LOG_NATIVE": "false",
+    "VSCODE_LOG_STACK": "false",
+    "VSCODE_NLS_CONFIG": "{\"locale\":\"zh-cn\",\"availableLanguages\":{\"*\":\"zh-cn\"},\"_languagePackId\":\"5bbccb7f472a6daff9a80a1ebebb1809.zh-cn\",\"_translationsConfigFile\":\"C:\\\\Users\\\\fishfan\\\\AppData\\\\Roaming\\\\Code\\\\clp\\\\5bbccb7f472a6daff9a80a1ebebb1809.zh-cn\\\\tcf.json\",\"_cacheRoot\":\"C:\\\\Users\\\\fishfan\\\\AppData\\\\Roaming\\\\Code\\\\clp\\\\5bbccb7f472a6daff9a80a1ebebb1809.zh-cn\",\"_resolvedLanguagePackCoreLocation\":\"C:\\\\Users\\\\fishfan\\\\AppData\\\\Roaming\\\\Code\\\\clp\\\\5bbccb7f472a6daff9a80a1ebebb1809.zh-cn\\\\c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1\",\"_corruptedFile\":\"C:\\\\Users\\\\fishfan\\\\AppData\\\\Roaming\\\\Code\\\\clp\\\\5bbccb7f472a6daff9a80a1ebebb1809.zh-cn\\\\corrupted.info\",\"_languagePackSupport\":true}",
+    "VSCODE_PID": "8356",
+    "VSCODE_PIPE_LOGGING": "true",
+    "VSCODE_VERBOSE_LOGGING": "true",
+    "windir": "C:\\WINDOWS",
+    "WXDRIVE_START_ARGS": "--wxdrive-setting=0 --disable-gpu --disable-software-rasterizer --enable-features=NetworkServiceInProcess",
+    "__COMPAT_LAYER": "DetectorsAppHealth"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\SYSTEM32\\apphelp.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\powrprof.dll",
+    "C:\\WINDOWS\\SYSTEM32\\UMPDC.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\bcryptprimitives.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\Program Files\\Bonjour\\mdnsNSP.dll"
+  ]
+}

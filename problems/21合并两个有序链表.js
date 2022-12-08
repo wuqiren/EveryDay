@@ -42,3 +42,19 @@ var mergeTwoLists1 = function(list1, list2) {
     prev.next = list1 ? list1 : list2;
     return preHead.next;
 };
+
+let mergeTwoLists1 = function(list1, list2) {
+    const preHead = new ListNode(-1)
+    let prev = preHead;
+    while(list1!== null && list2!== null){
+        if(list1.val<list2.val){
+            prev.next = list1;
+            list1=list1.next
+        }else{
+            prev.next = list2;
+            list2=list2.next
+        }
+    }
+    prev.next=list2?list2:list1
+    return preHead.next;
+}

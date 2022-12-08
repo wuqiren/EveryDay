@@ -9,14 +9,15 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
- var middleNode = function(head) {
- let fast =slow= head
- while (fast&&fast.next) {
-    slow = slow.next;
-    fast = fast.next.next
- }
- return slow
-};
 
-let arr =[1,2,3,4,5]
-console.log(middleNode(arr))
+
+
+var middleNode = function(head) {
+   let one = head;
+   let two = head;
+   while (two && two.next) {
+       two = two.next.next;
+       one = one.next;
+   }
+   return one
+};

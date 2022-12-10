@@ -8,7 +8,6 @@
     for (let i = 0; i < numbers.length; i++){
         let a = target-numbers[i]
         if(map[a]!==undefined){
-            console.log(map[a],'map[a]map[a]')
             return [map[a]+1,i]
         }
         map[numbers[i]] = i

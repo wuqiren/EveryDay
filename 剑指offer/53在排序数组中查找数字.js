@@ -32,8 +32,11 @@ var searchRange = function(nums, target) {
             left = mid+1;
         }
     }
+    if (left - 1 < 0){
+        return [leftValue,-1]
+    };
+
     rightValue= nums[left - 1] === target ? (left - 1) : -1;
-    if (left - 1 < 0) rightValue =-1;
     return [leftValue,rightValue]
 };
 

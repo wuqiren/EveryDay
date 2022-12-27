@@ -52,3 +52,15 @@ var reverseKGroup = function(head, k) {
     a.next=reverseKGroup(b,k);
     return newHead
 };
+
+
+var reverse = function(head){
+    let prev = null;
+    let curr = head;
+    while(curr){
+        const next = curr.next;
+        curr.next=prev;
+        prev=curr;
+        curr=next
+    }
+}

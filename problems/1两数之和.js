@@ -28,3 +28,25 @@ var twoSum2 = function (nums, target) {
   }
 };
 console.log(twoSum2([2, 7, 11, 15], 9));
+
+
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+var twoSum = function(nums, target) {
+  nums.sort((a, b) =>a-b)
+  let left=0;right=nums.length-1;
+  while (left < right) {
+    if(nums[left]+nums[right]>target){
+      right--
+    }
+    if(nums[left]+nums[right]===target){
+      return [nums[left],nums[right]]
+    }
+    if(nums[left]+nums[right]<target){
+      left++
+    }
+  }
+};

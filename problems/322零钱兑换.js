@@ -3,7 +3,7 @@
  * @param {number} amount
  * @return {number}
  */
-
+// 备忘录
 var memo=[]
 var coinChange = function(coins, amount) {
     memo = Array(amount+1).fill(-100);

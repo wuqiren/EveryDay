@@ -64,3 +64,23 @@ var lengthOfLongestSubstring = function(s) {
     }
     return res
 };
+
+var lengthOfLongestSubstring1= function(s) {
+    let left =0;right=0;
+    let window={};
+    while(right<s.length){
+        let c= s[right];
+        right++
+        if(window[c]){
+            window[c]++
+        }else{
+            window[c]=1
+        }
+        while(window[c]>1){
+            let d= s[left]
+            left++
+            window[d]--
+        }
+        res=Math.max(res,right-left)
+    }
+}

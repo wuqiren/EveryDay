@@ -29,3 +29,14 @@ var reverseList = function(head) {
     head.next = null;
     return last
 };
+
+
+var reverseList = function(head) {
+   if(head===null || head.next===null) {
+        return head
+   }
+   const last = reverseList(head.next);
+   head.next.next=head
+   head.next=null
+   return last
+}

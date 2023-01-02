@@ -25,7 +25,7 @@ var reverseList = function(head) {
         return head;
     }
     const last = reverseList(head.next)
-    head.next.next=null;
+    head.next.next=head;
     head.next=null;
     return last;
 };

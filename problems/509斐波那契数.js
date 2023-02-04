@@ -37,3 +37,20 @@ var fib2 = function(n) {
    return next
  };
  
+
+
+ function fib(n){
+    if(n===0||n===1)return n;
+    return fib(n-1)+fib(n-2)
+ }
+ function fib1(n){
+    if(n===0||n===1)return n;
+    let prev=0;let next=1;
+    for(let i=2;i<=n;i++){
+        let sum = prev+next
+        prev=next;
+        next=sum
+    }
+    return next
+ }
+ console.log(fib1(4))

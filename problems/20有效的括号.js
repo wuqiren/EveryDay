@@ -33,6 +33,7 @@ var isValid = function(s) {
  map.set("]", "[")
  map.set("}", "{")
  for (let i = 0; i < s.length; i++) {
+    console.log(s[i],'s[i]s[i]')
      if (!map.has(s[i])) {
          stack.push(s[i])
      } else {
@@ -43,3 +44,23 @@ var isValid = function(s) {
  }
  return !stack.length
 }
+
+
+var fc = (s)=>{
+    let map=new Map()
+    map.set(')','(')
+    map.set(']','[')
+    map.set('}','{')
+    let stack=[]
+    for(let i of s) {
+        if(!map.has(i)){
+            stack.push(i)
+        }else{
+            if(map.get(i)!=stack.pop()){
+                return false
+            }
+        }
+    }
+    return !stack.length
+}
+isValid("()")

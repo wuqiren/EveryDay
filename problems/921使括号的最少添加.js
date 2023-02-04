@@ -21,3 +21,23 @@ var minAddToMakeValid = function(s) {
     }
     return res+need;
 };
+
+var minAddToMakeValid1 = function(s) {
+    let res= 0;
+    let need=0;
+    for(let i of s){
+        if(i==='('){
+            need++;
+        }
+        if(i===')'){
+            need--;
+            if(need===-1){
+                // 需插入一个左括号
+                res++;
+                need=0
+            }
+        }
+    }
+    // need为需要的右括号
+    return res+need
+}

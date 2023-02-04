@@ -21,3 +21,17 @@
     }
     return false;
 };
+
+
+
+var hasCycle = function(head) {
+    let low=fast =head;
+    while(fast!==null && fast.next!==null){
+        fast = fast.next.next;
+        low=low.next
+        if(low==fast){
+            return true
+        }
+    }
+    return false
+};

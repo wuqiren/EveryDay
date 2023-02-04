@@ -87,3 +87,26 @@ var lengthOfLongestSubstring = function(s) {
     }
     return res
 };
+
+
+var a =function(s){
+    let left=0,right=0;
+    let window={};
+    let res= 0;
+    while(right<s.length){
+        let c = s[right]
+        right++;
+        if( window[c]){
+            window[c]++
+        }else{
+            window[c]=0
+        }
+        while(window[c]>1){
+            let d=s[left];
+            d++
+            window[d]--
+        }
+        res = Math.max(res,right-left)
+    }
+    return res
+}

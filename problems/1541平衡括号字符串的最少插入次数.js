@@ -23,7 +23,6 @@ var minInsertions = function(s) {
                 need=1;
                 res++;
             }
-           
         }
     }
     return need+res;

@@ -47,3 +47,13 @@ var findKthLargest2 = function(nums, k) {
 
     return newArr[newArr.length - k]
 };
+
+
+/**
+ * @param {number[]} nums
+ * @param {number} k
+ * @return {number}
+ */
+ var findKthLargest = function(nums, k) {
+    
+};

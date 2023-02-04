@@ -54,6 +54,7 @@ let mergeTwoLists1 = function(list1, list2) {
             prev.next = list2;
             list2=list2.next
         }
+        prev=prev.next
     }
     prev.next=list2?list2:list1
     return preHead.next;

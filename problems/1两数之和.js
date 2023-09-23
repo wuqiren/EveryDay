@@ -30,6 +30,24 @@ var twoSum2 = function (nums, target) {
 console.log(twoSum2([2, 7, 11, 15], 9));
 
 
+
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+var twoSum5 = function(nums, target) {
+    let map =new Map();
+  for (let i = 0;i<nums.length;i++){
+    const index = target - nums[i];
+      if (map.has(index)) {
+            return [i,map.get(index)]
+        }else{
+            map.set(nums[i],i)
+        }
+    }
+};
+console.log(twoSum5([2, 7, 11, 15], 9));
 /**
  * @param {number[]} nums
  * @param {number} target

@@ -24,6 +24,6 @@ var longestConsecutive = function(nums) {
         }
     }
 
-    return longestStreak;   
+    return longestStreak;
 };
 
